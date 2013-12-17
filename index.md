@@ -5,7 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 ![Picture of Andrew Hundt](https://0.gravatar.com/avatar/fb975596131ce08ea7e7472f09b8209d?d=https%3A%2F%2Fidenticons.github.com%2Fd7ccb841e1c86abdc1d1d6e6bacb6f17.png&r=x&s=200)  
-ATHundt@gmail.com
+[ATHundt@gmail.com](ATHundt@gmail.com)
   
 ### Employment
 > *[Robotics Engineer](http://www.ri.cmu.edu/person.html?person_id=2462)*,  
@@ -13,14 +13,17 @@ ATHundt@gmail.com
 > [Robotics Institute](http://www.ri.cmu.edu/),  
 > [Carnegie Mellon University](http://cmu.edu)  
 
-####[ Tractor Automation](http://www.rec.ri.cmu.edu/projects/usda/)
+####[ Farming Automation](http://www.rec.ri.cmu.edu/projects/usda/)
 
-I've worked on autonomous orchard and field tractors.
+![Orchard Tractor](http://www.rec.ri.cmu.edu/projects/usda/images/description.jpg)
+ 
+ I've worked on autonomous orchard and field tractors.
 
 ### Personal Projects
 
 
 #### [Boost.Container static_vector](http://is.gd/BoostSV) 
+
 Part of [Boost C++ Libraries](http://boost.org), `static_vector`, aka `varray`, is a sequence container like `std::vector` with the benefits of statically allocated storage as found in `std::array`. **Acknowledgments**: [Boost.Geometry](http://is.gd/geometryack), [Boost.Container](http://is.gd/containerack) 
 
 #### [CalcHundter](CalcHundter)
