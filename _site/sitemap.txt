@@ -1,9 +1,0 @@
-
-http://ahundt.github.io/archive.html
-http://ahundt.github.io/atom.xml
-http://ahundt.github.io/categories.html
-http://ahundt.github.io/index.html
-http://ahundt.github.io/pages.html
-http://ahundt.github.io/rss.xml
-http://ahundt.github.io/sitemap.txt
-http://ahundt.github.io/tags.html
