@@ -9,7 +9,7 @@ ATHundt@gmail.com
   
 #### Employment
 > *[Robotics Engineer](http://www.ri.cmu.edu/person.html?person_id=2462)*,  
-> [National Robotics Engineering Center](http://nrec.ri.cmu.edu),  
+> [National Robotics Engineering Center](http://rec.ri.cmu.edu),  
 > [Robotics Institute](http://www.ri.cmu.edu/),  
 > [Carnegie Mellon University](http://cmu.edu)  
 
