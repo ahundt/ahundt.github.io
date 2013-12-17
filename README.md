@@ -1,4 +1,4 @@
-# [Andrew Hundt](ahundt.github.io)
+# [Andrew Hundt](http://ahundt.github.io)
 
 This repository is used to generate my webpage.
 
