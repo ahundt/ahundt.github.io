@@ -17,7 +17,7 @@ ATHundt@gmail.com
 Projects
 --------
 
-### [Boost.Container static_vector](is.gd/BoostSV) 
+### [Boost.Container static_vector](http://is.gd/BoostSV) 
 Part of [Boost C++ Libraries](boost.org), `static_vector`, aka `varray`, is a sequence container like `std::vector` with the benefits of statically allocated storage as found in `std::array`. **Acknowledgments**: [Boost.Geometry](http://is.gd/geometryack), [Boost.Container](http://is.gd/containerack) 
 
 ### CalcHundter
