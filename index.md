@@ -18,7 +18,7 @@ Projects
 --------
 
 ### [Boost.Container static_vector](http://is.gd/BoostSV) 
-Part of [Boost C++ Libraries](boost.org), `static_vector`, aka `varray`, is a sequence container like `std::vector` with the benefits of statically allocated storage as found in `std::array`. **Acknowledgments**: [Boost.Geometry](http://is.gd/geometryack), [Boost.Container](http://is.gd/containerack) 
+Part of [Boost C++ Libraries](http://boost.org), `static_vector`, aka `varray`, is a sequence container like `std::vector` with the benefits of statically allocated storage as found in `std::array`. **Acknowledgments**: [Boost.Geometry](http://is.gd/geometryack), [Boost.Container](http://is.gd/containerack) 
 
 ### CalcHundter
 A cross-platform calculator app to assist with programming arithmetic and bit operations, made with the use of HCI research and design principles. **Download**: [Windows](http://is.gd/calchundterwin), [Mac](http://is.gd/calchundtermac)
