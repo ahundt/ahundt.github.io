@@ -23,10 +23,6 @@ Part of [Boost C++ Libraries](http://boost.org), `static_vector`, aka `varray`, 
 ### CalcHundter
 A cross-platform calculator app to assist with programming arithmetic and bit operations, made with the use of HCI research and design principles. **Download**: [Windows](http://is.gd/calchundterwin), [Mac](http://is.gd/calchundtermac)
 
-### Wii Remote Controlled Robot
-
-<iframe width="420" height="315" src="//www.youtube.com/embed/jPCQyqeU0kw?rel=0" frameborder="0" ></iframe>
-
 
 ### [CMU Buggy](http://is.gd/cmubuggy)
 
@@ -36,4 +32,7 @@ I was an engineer for Fringe Racing, a team which designs and builds human power
 In High School I researched an Inertial Electrostatic Confinement fusion reactor which achieved plasma.
 
 
+### Wii Remote Controlled Robot
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/jPCQyqeU0kw?rel=0" frameborder="0" ></iframe>
 
