@@ -4,13 +4,71 @@
  <title>Andrew Hundt</title>
  <link href="http://ahundt.github.io/" rel="self"/>
  <link href="http://ahundt.github.io"/>
- <updated>2013-12-16T22:29:45-05:00</updated>
+ <updated>2015-08-23T17:14:48-04:00</updated>
  <id>http://ahundt.github.io</id>
  <author>
    <name>Andrew Hundt</name>
    <email>ATHundt@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Intro to V-REP</title>
+   <link href="http://ahundt.github.io/2015/08/23/IntroToV-Rep"/>
+   <updated>2015-08-23T00:00:00-04:00</updated>
+   <id>http://ahundt.github.io/2015/08/23/IntroToV-Rep</id>
+   <content type="html">&lt;p&gt;Here is some basic information for getting started with the robot simulator &lt;a href=&quot;coppeliarobotics.com/index.html&quot;&gt;V-REP&lt;/a&gt;. I also haven’t tried the matlab API or another external API. It is also worth loading up some of their demo scenes, which you can see with &lt;code&gt;file&amp;gt;open scene...&lt;/code&gt; It should default to the folder with lots of examples.&lt;/p&gt;
+
+&lt;h4 id=&quot;key-v-rep-links&quot;&gt;Key V-REP Links&lt;/h4&gt;
+
+&lt;p&gt;I’ll give a few links to some important parts. Be sure to take note of the icons they have at the top of their page, because they are key to matching up between their interface and what button to actually push.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm&quot;&gt;Interface overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/calculationModules.htm&quot;&gt;calculation properties dialog&lt;/a&gt; where their internal inverse kinematics configuration can be configured, for example.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/scriptProperties.htm&quot;&gt;script dialog&lt;/a&gt; is how you look at what scripting is built into a simulation&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/childScripts.htm&quot;&gt;child scripts&lt;/a&gt; are how to manipulate objects in lua, this is the easiest thing to use and can be added by &lt;code&gt;right clicking on an object &amp;gt; add &amp;gt; scripts &amp;gt; threaded child script&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/apiFunctions.htm&quot;&gt;Full API Function List&lt;/a&gt; is the most useful page of all once the basics are covered is the full API function list:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of the &lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/childScripts.htm&quot;&gt;keys to V-REP is child scripts&lt;/a&gt;, which you can see the icon for it at the link. Those are the small lua scripts you can modify, plus you may need a one liner in there to activate the remote API.&lt;/p&gt;
+
+&lt;h4 id=&quot;interacting-with-objects-in-vrep-programmatically&quot;&gt;Interacting with objects in VREP Programmatically&lt;/h4&gt;
+
+&lt;p&gt;If you’ve used any old GUI systems, you’ll be familiar with the &lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/accessingGeneralObjects.htm&quot;&gt;handle system VREP uses&lt;/a&gt;. Essentially, physical objects in the simulation can be represented as a string or an integer “handle” which is an index into an internal lookup table V-REP stores. You pass those handles to the VREP API functions to perform a scripted action like changing joint angles on an object.&lt;/p&gt;
+
+&lt;h4 id=&quot;remote-apis-matlab-python&quot;&gt;Remote APIs, MATLAB, Python&lt;/h4&gt;
+
+&lt;p&gt;This is their &lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm&quot;&gt;page for the remote APIs&lt;/a&gt;. However it is worth noting they have reduced performance and a reduced set of API functions when compared to lua and C/C++. Of the external APIs if you know python that may also be worth considering over matlab because it has an equally complete set of scientific libraries, doesn’t depend on a license, and I believe the cisst UR5 library is accessible from python (but I haven’t used it).&lt;/p&gt;
+
+&lt;h4 id=&quot;python--studywolf-blog&quot;&gt;Python + Studywolf blog&lt;/h4&gt;
+
+&lt;p&gt;There is also the &lt;a href=&quot;https://studywolf.wordpress.com/&quot;&gt;study wolf blog&lt;/a&gt; with a series of FANTASTIC tutorials on &lt;a href=&quot;https://studywolf.wordpress.com/?s=robot+control&quot;&gt;kinematics and control in python&lt;/a&gt;, &lt;a href=&quot;https://github.com/studywolf/blog&quot;&gt;with code&lt;/a&gt;. At the bottom of each page you can browse more of his articles specifically.&lt;/p&gt;
+
+&lt;h4 id=&quot;using-v-rep-and-matlab-to-simplify-coursework&quot;&gt;Using V-REP and matlab to simplify coursework&lt;/h4&gt;
+
+&lt;p&gt;One more interesting link I came across uses &lt;a href=&quot;http://teaching-robotics.org/trs2014/&quot;&gt;V-REP and matlab to simplify coursework&lt;/a&gt; called &lt;a href=&quot;http://ulgrobotics.github.io/trs/setup.html&quot;&gt;TRS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;lua-apis-and-matrices&quot;&gt;lua APIs and matrices&lt;/h4&gt;
+
+&lt;p&gt;In case it is useful, &lt;a href=&quot;https://github.com/davidm/lua-matrix&quot;&gt;luamatrix provides a set of pure lua matrix functions&lt;/a&gt;. I haven’t tried it but it did take some time to find so I figured I’d share that. Also, &lt;a href=&quot;http://www.forum.coppeliarobotics.com/viewtopic.php?f=9&amp;amp;t=3991&quot;&gt;How to integrate an external lua library&lt;/a&gt; can be found in the V-REP forums.&lt;/p&gt;
+
+&lt;h4 id=&quot;scene-hierarchy&quot;&gt;Scene Hierarchy&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm&quot;&gt;Scene Hierarchy&lt;/a&gt; is the list of objects on the left-hand side of V-REP with things that are already in your simulation.&lt;/p&gt;
+
+&lt;p&gt;Sometimes there will be a tab indentation of one object to the bottom right of the other, this is particularly obvious when you look at an arm and how all the indentations slant to the right from top to bottom. This Indentation means that the object is represented in the coordinate frame of the parent object, so if you for example rotate the first link of the arm all the child links are moved with it.&lt;/p&gt;
+
+&lt;p&gt;I used this in combination with dummy objects for my system. Dummy objects are useful because they provide a physical frame that you can see in the simulation to attach your objects to and move everything relative to. For example with my bone which had an optical tracker fiducial attached, I put a dummy object a position where the fiducials control point is I made the bone a child that so then when I move the bone The optical tracker would detect that and set the position of the dummy the new detected position on the bone with corresponding we move in the simulation to it’s real time position.&lt;/p&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;Hopefully that is a decent amount of starter info pointing to some of the key items!&lt;/p&gt;
+</content>
+ </entry>
  
  
 </feed>

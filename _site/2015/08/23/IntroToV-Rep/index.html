@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Intro to V-REP</title>
+    
+    <meta name="author" content="Andrew Hundt">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="/">Andrew Hundt</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-narrow">
+
+      <div class="content">
+        
+<div class="page-header">
+  <h1>Intro to V-REP </h1>
+</div>
+
+<div class="row-fluid post-full">
+  <div class="span12">
+    <div class="date">
+      <span>23 August 2015</span>
+    </div>
+    <div class="content">
+      <p>Here is some basic information for getting started with the robot simulator <a href="coppeliarobotics.com/index.html">V-REP</a>. I also haven’t tried the matlab API or another external API. It is also worth loading up some of their demo scenes, which you can see with <code>file&gt;open scene...</code> It should default to the folder with lots of examples.</p>
+
+<h4 id="key-v-rep-links">Key V-REP Links</h4>
+
+<p>I’ll give a few links to some important parts. Be sure to take note of the icons they have at the top of their page, because they are key to matching up between their interface and what button to actually push.</p>
+
+<ul>
+  <li><a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm">Interface overview</a></li>
+  <li><a href="http://www.coppeliarobotics.com/helpFiles/en/calculationModules.htm">calculation properties dialog</a> where their internal inverse kinematics configuration can be configured, for example.
+    <ul>
+      <li><a href="http://www.coppeliarobotics.com/helpFiles/en/scriptProperties.htm">script dialog</a> is how you look at what scripting is built into a simulation</li>
+      <li><a href="http://www.coppeliarobotics.com/helpFiles/en/childScripts.htm">child scripts</a> are how to manipulate objects in lua, this is the easiest thing to use and can be added by <code>right clicking on an object &gt; add &gt; scripts &gt; threaded child script</code></li>
+    </ul>
+  </li>
+  <li><a href="http://www.coppeliarobotics.com/helpFiles/en/apiFunctions.htm">Full API Function List</a> is the most useful page of all once the basics are covered is the full API function list:</li>
+</ul>
+
+<p>One of the <a href="http://www.coppeliarobotics.com/helpFiles/en/childScripts.htm">keys to V-REP is child scripts</a>, which you can see the icon for it at the link. Those are the small lua scripts you can modify, plus you may need a one liner in there to activate the remote API.</p>
+
+<h4 id="interacting-with-objects-in-vrep-programmatically">Interacting with objects in VREP Programmatically</h4>
+
+<p>If you’ve used any old GUI systems, you’ll be familiar with the <a href="http://www.coppeliarobotics.com/helpFiles/en/accessingGeneralObjects.htm">handle system VREP uses</a>. Essentially, physical objects in the simulation can be represented as a string or an integer “handle” which is an index into an internal lookup table V-REP stores. You pass those handles to the VREP API functions to perform a scripted action like changing joint angles on an object.</p>
+
+<h4 id="remote-apis-matlab-python">Remote APIs, MATLAB, Python</h4>
+
+<p>This is their <a href="http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm">page for the remote APIs</a>. However it is worth noting they have reduced performance and a reduced set of API functions when compared to lua and C/C++. Of the external APIs if you know python that may also be worth considering over matlab because it has an equally complete set of scientific libraries, doesn’t depend on a license, and I believe the cisst UR5 library is accessible from python (but I haven’t used it).</p>
+
+<h4 id="python--studywolf-blog">Python + Studywolf blog</h4>
+
+<p>There is also the <a href="https://studywolf.wordpress.com/">study wolf blog</a> with a series of FANTASTIC tutorials on <a href="https://studywolf.wordpress.com/?s=robot+control">kinematics and control in python</a>, <a href="https://github.com/studywolf/blog">with code</a>. At the bottom of each page you can browse more of his articles specifically.</p>
+
+<h4 id="using-v-rep-and-matlab-to-simplify-coursework">Using V-REP and matlab to simplify coursework</h4>
+
+<p>One more interesting link I came across uses <a href="http://teaching-robotics.org/trs2014/">V-REP and matlab to simplify coursework</a> called <a href="http://ulgrobotics.github.io/trs/setup.html">TRS</a>.</p>
+
+<h4 id="lua-apis-and-matrices">lua APIs and matrices</h4>
+
+<p>In case it is useful, <a href="https://github.com/davidm/lua-matrix">luamatrix provides a set of pure lua matrix functions</a>. I haven’t tried it but it did take some time to find so I figured I’d share that. Also, <a href="http://www.forum.coppeliarobotics.com/viewtopic.php?f=9&amp;t=3991">How to integrate an external lua library</a> can be found in the V-REP forums.</p>
+
+<h4 id="scene-hierarchy">Scene Hierarchy</h4>
+
+<p>The <a href="http://www.coppeliarobotics.com/helpFiles/en/userInterface.htm">Scene Hierarchy</a> is the list of objects on the left-hand side of V-REP with things that are already in your simulation.</p>
+
+<p>Sometimes there will be a tab indentation of one object to the bottom right of the other, this is particularly obvious when you look at an arm and how all the indentations slant to the right from top to bottom. This Indentation means that the object is represented in the coordinate frame of the parent object, so if you for example rotate the first link of the arm all the child links are moved with it.</p>
+
+<p>I used this in combination with dummy objects for my system. Dummy objects are useful because they provide a physical frame that you can see in the simulation to attach your objects to and move everything relative to. For example with my bone which had an optical tracker fiducial attached, I put a dummy object a position where the fiducials control point is I made the bone a child that so then when I move the bone The optical tracker would detect that and set the position of the dummy the new detected position on the bone with corresponding we move in the simulation to it’s real time position.</p>
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>Hopefully that is a decent amount of starter info pointing to some of the key items!</p>
+
+    </div>
+
+    
+
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev disabled"><a>&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; 2015 Andrew Hundt
+        </p>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
