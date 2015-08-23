@@ -6,8 +6,18 @@ tagline:
 {% include JB/setup %}
 ![Picture of Andrew Hundt](https://0.gravatar.com/avatar/fb975596131ce08ea7e7472f09b8209d?d=https%3A%2F%2Fidenticons.github.com%2Fd7ccb841e1c86abdc1d1d6e6bacb6f17.png&r=x&s=200)  
 [ATHundt@gmail.com](ATHundt@gmail.com)
+
+### PhD Student, Johns Hopkins University
+
+#### Robone Project
+
+Working on a robotic hip replacement surgical assistant robot.
+
+#### Generic Robotics Library
+
+[Generic Robotics Library](https://github.com/ahundt/grl)
   
-### Employment
+### Past Employment
 > *[Robotics Engineer](http://www.ri.cmu.edu/person.html?person_id=2462)*,  
 > [National Robotics Engineering Center](http://rec.ri.cmu.edu),  
 > [Robotics Institute](http://www.ri.cmu.edu/),  
