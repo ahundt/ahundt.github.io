@@ -4,7 +4,7 @@
  <title>Andrew Hundt</title>
  <link href="http://ahundt.github.io/" rel="self"/>
  <link href="http://ahundt.github.io"/>
- <updated>2015-08-23T17:14:48-04:00</updated>
+ <updated>2015-08-23T19:39:22-04:00</updated>
  <id>http://ahundt.github.io</id>
  <author>
    <name>Andrew Hundt</name>
@@ -17,7 +17,7 @@
    <link href="http://ahundt.github.io/2015/08/23/IntroToV-Rep"/>
    <updated>2015-08-23T00:00:00-04:00</updated>
    <id>http://ahundt.github.io/2015/08/23/IntroToV-Rep</id>
-   <content type="html">&lt;p&gt;Here is some basic information for getting started with the robot simulator &lt;a href=&quot;coppeliarobotics.com/index.html&quot;&gt;V-REP&lt;/a&gt;. I also haven’t tried the matlab API or another external API. It is also worth loading up some of their demo scenes, which you can see with &lt;code&gt;file&amp;gt;open scene...&lt;/code&gt; It should default to the folder with lots of examples.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Here is some basic information for getting started with the robot simulator &lt;a href=&quot;http://www.coppeliarobotics.com/index.html&quot;&gt;V-REP&lt;/a&gt;. Since the organization of their documentation could use some improvement, I’ll go over some of the key links and other important information. It is also worth loading up some of their demo scenes, which you can see with &lt;code&gt;file&amp;gt;open scene...&lt;/code&gt; It should default to the folder with lots of examples.&lt;/p&gt;
 
 &lt;h4 id=&quot;key-v-rep-links&quot;&gt;Key V-REP Links&lt;/h4&gt;
 
@@ -42,11 +42,13 @@
 
 &lt;h4 id=&quot;remote-apis-matlab-python&quot;&gt;Remote APIs, MATLAB, Python&lt;/h4&gt;
 
-&lt;p&gt;This is their &lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm&quot;&gt;page for the remote APIs&lt;/a&gt;. However it is worth noting they have reduced performance and a reduced set of API functions when compared to lua and C/C++. Of the external APIs if you know python that may also be worth considering over matlab because it has an equally complete set of scientific libraries, doesn’t depend on a license, and I believe the cisst UR5 library is accessible from python (but I haven’t used it).&lt;/p&gt;
+&lt;p&gt;This is their &lt;a href=&quot;http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm&quot;&gt;page for the remote APIs&lt;/a&gt;. I haven’t tried the MATLAB API or any other remote/external API myself. It is also worth noting remote APIs have reduced performance and a reduced set of  functions when compared to the lua and C/C++ APIs that I use.&lt;/p&gt;
+
+&lt;p&gt;Of the external APIs, if you know python that may also be worth considering over MATLAB because it has an equally complete set of scientific libraries and doesn’t depend on a license. For those using the &lt;a href=&quot;http://www.universal-robots.com/products/ur5-robot/&quot;&gt;UR5&lt;/a&gt; robot, I believe the &lt;a href=&quot;https://github.com/jhu-cisst/cisst&quot;&gt;cisst&lt;/a&gt; UR5 library is accessible from python although I haven’t used it personally.&lt;/p&gt;
 
 &lt;h4 id=&quot;python--studywolf-blog&quot;&gt;Python + Studywolf blog&lt;/h4&gt;
 
-&lt;p&gt;There is also the &lt;a href=&quot;https://studywolf.wordpress.com/&quot;&gt;study wolf blog&lt;/a&gt; with a series of FANTASTIC tutorials on &lt;a href=&quot;https://studywolf.wordpress.com/?s=robot+control&quot;&gt;kinematics and control in python&lt;/a&gt;, &lt;a href=&quot;https://github.com/studywolf/blog&quot;&gt;with code&lt;/a&gt;. At the bottom of each page you can browse more of his articles specifically.&lt;/p&gt;
+&lt;p&gt;While not related to V-REP directly, the &lt;a href=&quot;https://studywolf.wordpress.com/&quot;&gt;study wolf blog&lt;/a&gt; has a series of FANTASTIC tutorials on &lt;a href=&quot;https://studywolf.wordpress.com/?s=robot+control&quot;&gt;kinematics and control in python&lt;/a&gt;, &lt;a href=&quot;https://github.com/studywolf/blog&quot;&gt;with code&lt;/a&gt;. The information on that blog is useful for understanding some of the underlying robotics concepts utilized by V-REP. At the bottom of each page on the studywolf blog you can browse more of his articles specifically.&lt;/p&gt;
 
 &lt;h4 id=&quot;using-v-rep-and-matlab-to-simplify-coursework&quot;&gt;Using V-REP and matlab to simplify coursework&lt;/h4&gt;
 

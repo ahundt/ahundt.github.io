@@ -3,7 +3,7 @@ layout: post
 title: Intro to V-REP
 ---
 
-Here is some basic information for getting started with the robot simulator [V-REP](coppeliarobotics.com/index.html). I also haven't tried the matlab API or another external API. It is also worth loading up some of their demo scenes, which you can see with `file>open scene...` It should default to the folder with lots of examples.
+Here is some basic information for getting started with the robot simulator [V-REP](http://www.coppeliarobotics.com/index.html). Since the organization of their documentation could use some improvement, I'll go over some of the key links and other important information. It is also worth loading up some of their demo scenes, which you can see with `file>open scene...` It should default to the folder with lots of examples.
 
 #### Key V-REP Links
 
@@ -23,11 +23,13 @@ If you've used any old GUI systems, you'll be familiar with the [handle system V
 
 #### Remote APIs, MATLAB, Python
 
-This is their [page for the remote APIs](http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm). However it is worth noting they have reduced performance and a reduced set of API functions when compared to lua and C/C++. Of the external APIs if you know python that may also be worth considering over matlab because it has an equally complete set of scientific libraries, doesn't depend on a license, and I believe the cisst UR5 library is accessible from python (but I haven't used it). 
+This is their [page for the remote APIs](http://www.coppeliarobotics.com/helpFiles/en/remoteApiOverview.htm). I haven't tried the MATLAB API or any other remote/external API myself. It is also worth noting remote APIs have reduced performance and a reduced set of  functions when compared to the lua and C/C++ APIs that I use. 
+
+Of the external APIs, if you know python that may also be worth considering over MATLAB because it has an equally complete set of scientific libraries and doesn't depend on a license. For those using the [UR5](http://www.universal-robots.com/products/ur5-robot/) robot, I believe the [cisst](https://github.com/jhu-cisst/cisst) UR5 library is accessible from python although I haven't used it personally. 
 
 #### Python + Studywolf blog
 
-There is also the [study wolf blog](https://studywolf.wordpress.com/) with a series of FANTASTIC tutorials on [kinematics and control in python](https://studywolf.wordpress.com/?s=robot+control), [with code](https://github.com/studywolf/blog). At the bottom of each page you can browse more of his articles specifically.
+While not related to V-REP directly, the [study wolf blog](https://studywolf.wordpress.com/) has a series of FANTASTIC tutorials on [kinematics and control in python](https://studywolf.wordpress.com/?s=robot+control), [with code](https://github.com/studywolf/blog). The information on that blog is useful for understanding some of the underlying robotics concepts utilized by V-REP. At the bottom of each page on the studywolf blog you can browse more of his articles specifically.
 
 #### Using V-REP and matlab to simplify coursework
 
