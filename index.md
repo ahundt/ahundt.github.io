@@ -21,21 +21,21 @@ I'm interested in the intersection of Deep Learning, Neural Architecture Search,
 
 See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) page for the complete and up to date list because this page is not updated frequently.
 
-#### [SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900) - Preprint 2019
+**[SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900)** - Preprint 2019
 
 Sets state of the art (SOTA) on the CIFAR-10 dataset and matches SOTA on ImageNet at mobile	scale in March 2019. Proposes Differentiable Hyperparameter Search and Cosine Power Annealing.
 
-#### [The CoSTAR Block Stacking Dataset: Learning with Workspace Constraints](https://arxiv.org/abs/1810.11714) - IROS 2019
+**[The CoSTAR Block Stacking Dataset: Learning with Workspace Constraints](https://arxiv.org/abs/1810.11714)** - IROS 2019
 
 A dynamic robotics dataset which serves as a valuable resource to researchers across a broad range of topics. Proposes HyperTree Neural Architecture Search (NAS) for refining neural network models.
 [CoSTAR Block Stacking Dataset Website](https://sites.google.com/site/costardataset)
 
-#### [CoSTAR: Instructing Collaborative Robots with Behavior Trees and Vision](https://arxiv.org/abs/1611.06145) - ICRA 2017
+**[CoSTAR: Instructing Collaborative Robots with Behavior Trees and Vision](https://arxiv.org/abs/1611.06145)** - ICRA 2017
 
 Defines perception and spatial reasoning abstractions to enable end-users to create robust task plans.
 **Winner of the 2016 KUKA Innovation Award** in a competition on flexible manufacturing.
 
-#### [User Experience of the CoSTAR System for Instruction of Collaborative Robots](http://arxiv.org/abs/1703.07890) - IROS 2017
+**[User Experience of the CoSTAR System for Instruction of Collaborative Robots](http://arxiv.org/abs/1703.07890)** - IROS 2017
 
 A user study showing the CoSTAR flexible manufacturing system is effective for specifying task plans.
 
