@@ -7,19 +7,32 @@ tagline:
 
 ![Picture of Andrew Hundt](https://0.gravatar.com/avatar/fb975596131ce08ea7e7472f09b8209d?d=https%3A%2F%2Fidenticons.github.com%2Fd7ccb841e1c86abdc1d1d6e6bacb6f17.png&r=x&s=200)
 
-[ATHundt@gmail.com](ATHundt@gmail.com)
+Twitter: [@athundt](https://twitter.com/athundt)
+Email: [ATHundt@gmail.com](ATHundt@gmail.com)
 
 [Google Scholar Page with publications](https://scholar.google.com/citations?user=N0JJHwkAAAAJ)
 
 [GitHub User Page with Code Repositories](https://github.com/ahundt)
 
-## PhD Student, Johns Hopkins University
+## PhD, Johns Hopkins University
 
-I'm interested in the intersection of Deep Learning, Neural Architecture Search, and Robotics.
+My goal is to create robots and other learning agents with brilliant adaptability, skillsets, and capabilities that are tailored to respect human Equity, Diversity, and Inclusion (EDI).
+
+## Democratizing Access: Natural Cooperation between Diverse Human Populations and Learning Agents
+
+I'm [Computing Innovation Fellow](https://cifellows2021.org/2021-class/) with the Computing Research Association (CRA) under National Science Foundation (NSF) support, for a Postdoctoral Fellowship at the Georgia Institute of Technology with Assistant Professor Matthew Gombolay and Regents' Professor Ronald C. Arkin.
+
+Our objective is to develop human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in the development of computational methods for Robotics and AI.
 
 ### Selection of Papers
 
 See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) page for the complete and up to date list because this page is not updated frequently.
+
+**["Good Robot! Now Watch This!": Repurposing Reinforcement Learning for Task-to-Task Transfer](https://openreview.net/forum?id=Pxs5XwId51n)** - Conference on Robot Learning 2021
+
+**[Guiding Multi-Step Rearrangement Tasks with Natural Language Instructions](https://openreview.net/forum?id=-QJ__aPUTN2)** - Conference on Robot Learning 2021
+
+**["Good Robot!": Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer](http://openreview.net/forum?id=Pxs5XwId51n)** - Robotics and Automation Letters (RA-L) 2020
 
 **[SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900)** - Preprint 2019
 
