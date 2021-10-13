@@ -8,5 +8,6 @@ http://ahundt.github.io/rss.xml
 http://ahundt.github.io/sitemap.txt
 http://ahundt.github.io/tags
 
+http://ahundt.github.io/2017/09/21/annotation
 http://ahundt.github.io/2015/08/23/ResumeAdvice
 http://ahundt.github.io/2015/08/23/IntroToV-Rep
