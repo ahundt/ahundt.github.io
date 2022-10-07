@@ -18,15 +18,11 @@ Email: [ATHundt@gmail.com](ATHundt@gmail.com)
 
 My goal is to create robots and other learning agents with brilliant adaptability, skillsets, and capabilities that are tailored to respect human Equity, Diversity, and Inclusion (EDI).
 
-## Democratizing Access: Natural Cooperation between Diverse Human Populations and Learning Agents
-
-I'm [Computing Innovation Fellow](https://cifellows2021.org/2021-class/) with the Computing Research Association (CRA) under National Science Foundation (NSF) support, for a Postdoctoral Fellowship at the Georgia Institute of Technology with Assistant Professor Matthew Gombolay and Regents' Professor Ronald C. Arkin.
-
-Our objective is to develop human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in the development of computational methods for Robotics and AI.
-
 ### Selection of Papers
 
 See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) page for the complete and up to date list because this page is not updated frequently.
+
+**[Robots Enact Malignant Stereotypes](https://sites.google.com/view/robots-enact-stereotypes/home)** ([DOI](https://doi.org/10.1145/3531146.3533138)) - FAccT22: 2022 ACM Conference on Fairness, Accountability, and Transparency
 
 **["Good Robot! Now Watch This!": Repurposing Reinforcement Learning for Task-to-Task Transfer](https://openreview.net/forum?id=Pxs5XwId51n)** - Conference on Robot Learning 2021
 
@@ -53,6 +49,13 @@ Defines perception and spatial reasoning abstractions to enable end-users to cre
 A user study showing the CoSTAR flexible manufacturing system is effective for specifying task plans.
 
 
+## Democratizing Access: Natural Cooperation between Diverse Human Populations and Learning Agents
+
+[Computing Innovation Fellow](https://cifellows2021.org/2021-class/) with the Computing Research Association (CRA) under National Science Foundation (NSF) support, for a Postdoctoral Fellowship at the Georgia Institute of Technology to develop human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in the development of computational methods for Robotics and AI.
+<!---
+
+ with Assistant Professor Matthew Gombolay and Regents' Professor Ronald C. Arkin.
+ -->
 
 ### Robone Project
 
