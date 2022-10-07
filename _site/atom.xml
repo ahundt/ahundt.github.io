@@ -4,7 +4,7 @@
  <title>Andrew Hundt</title>
  <link href="http://ahundt.github.io/" rel="self"/>
  <link href="http://ahundt.github.io"/>
- <updated>2021-10-13T12:03:21-04:00</updated>
+ <updated>2022-10-07T13:55:04-07:00</updated>
  <id>http://ahundt.github.io</id>
  <author>
    <name>Andrew Hundt</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Annotation</title>
    <link href="http://ahundt.github.io/2017/09/21/annotation"/>
-   <updated>2017-09-21T00:00:00-04:00</updated>
+   <updated>2017-09-21T00:00:00-07:00</updated>
    <id>http://ahundt.github.io/2017/09/21/annotation</id>
    <content type="html">&lt;p&gt;There are papers that describe how labeling and data annotation is done such as the &lt;a href=&quot;https://arxiv.org/abs/1405.0312&quot;&gt;mscoco paper&lt;/a&gt; and the &lt;a href=&quot;https://research.google.com/youtube8m/youtube8m-paper.pdf&quot;&gt;youtube8m paper&lt;/a&gt;, those are likely worth reading. There are also a number of code projects to help you set up mechanical turk for your labeling problem, I suggest searching via google and github.&lt;/p&gt;
 
@@ -43,7 +43,7 @@ Remove users and that aren’t good enough according to your evaluation in 1-5&l
  <entry>
    <title>Resume Advice</title>
    <link href="http://ahundt.github.io/2015/08/23/ResumeAdvice"/>
-   <updated>2015-08-23T00:00:00-04:00</updated>
+   <updated>2015-08-23T00:00:00-07:00</updated>
    <id>http://ahundt.github.io/2015/08/23/ResumeAdvice</id>
    <content type="html">&lt;p&gt;I’ve had a couple of people ask me about how to write technical resumes particularly applicable to programmers. Therefore, here is a general guide I wrote for improving resumes, I hope it will be useful to you.&lt;/p&gt;
 
@@ -127,7 +127,7 @@ Remove users and that aren’t good enough according to your evaluation in 1-5&l
  <entry>
    <title>Intro to V-REP</title>
    <link href="http://ahundt.github.io/2015/08/23/IntroToV-Rep"/>
-   <updated>2015-08-23T00:00:00-04:00</updated>
+   <updated>2015-08-23T00:00:00-07:00</updated>
    <id>http://ahundt.github.io/2015/08/23/IntroToV-Rep</id>
    <content type="html">&lt;p&gt;Here is some basic information for getting started with the robot simulator &lt;a href=&quot;http://www.coppeliarobotics.com/index.html&quot;&gt;V-REP&lt;/a&gt;. Since the organization of their documentation could use some improvement, I’ll go over some of the key links and other important information. It is also worth loading up some of their demo scenes, which you can see with &lt;code&gt;file&amp;gt;open scene...&lt;/code&gt; It should default to the folder with lots of examples.&lt;/p&gt;
 
