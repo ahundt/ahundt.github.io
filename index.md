@@ -48,14 +48,11 @@ Defines perception and spatial reasoning abstractions to enable end-users to cre
 
 A user study showing the CoSTAR flexible manufacturing system is effective for specifying task plans.
 
+## [Computing Innovation Fellow](https://cifellows2021.org/2021-class/)
 
-## Democratizing Access: Natural Cooperation between Diverse Human Populations and Learning Agents
-
-[Computing Innovation Fellow](https://cifellows2021.org/2021-class/) with the Computing Research Association (CRA) under National Science Foundation (NSF) support, for a Postdoctoral Fellowship at the Georgia Institute of Technology to develop human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in the development of computational methods for Robotics and AI.
-<!---
-
- with Assistant Professor Matthew Gombolay and Regents' Professor Ronald C. Arkin.
- -->
+Awarded by the Computing Research Association (CRA) via National Science Foundation (NSF) support, for a Postdoctoral Fellowship at the Georgia Institute of Technology to develop human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in the development of computational methods for Robotics and AI.
+[](Democratizing Access: Natural Cooperation between Diverse Human Populations and Learning Agents)
+[](with Assistant Professor Matthew Gombolay and Regents' Professor Ronald C. Arkin.)
 
 ### Robone Project
 
