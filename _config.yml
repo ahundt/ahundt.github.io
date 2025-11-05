@@ -2,8 +2,8 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor", "Gemfile", "Gemfile.lock"]
+highlighter: rouge
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -31,6 +31,34 @@ production_url : http://ahundt.github.io
 # https://github.com/thelehhman/plainwhite-jekyll
 # http://jekyllthemes.org/themes/PlainWhite-Jekyll/
 remote_theme: thelehhman/plainwhite-jekyll
+
+# Plainwhite theme configuration
+plainwhite:
+  name: Andrew Hundt
+  tagline: Computing Innovation Fellow
+  date_format: "%b %-d, %Y"
+
+  # Social links
+  social_links:
+    twitter: athundt
+    github: ahundt
+    linkedIn: in/andrewhundt
+
+  # Dark mode support
+  dark_mode: true
+
+  # Search functionality
+  search: true
+
+  # Show excerpts on home page
+  show_excerpts: true
+
+  # Navigation
+  navigation:
+    - title: Home
+      url: "/"
+    - title: Google Scholar
+      url: "https://scholar.google.com/citations?user=N0JJHwkAAAAJ"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
