@@ -4,7 +4,6 @@ title: Andrew Hundt
 tagline: Computing Innovation Fellow
 description: Andrew Hundt's research on AI, Robotics, Deep Learning, Responsible AI, and AI Ethics
 ---
-{% include JB/setup %}
 
 ![Picture of Andrew Hundt](https://0.gravatar.com/avatar/fb975596131ce08ea7e7472f09b8209d?d=https%3A%2F%2Fidenticons.github.com%2Fd7ccb841e1c86abdc1d1d6e6bacb6f17.png&r=x&s=200)
 
