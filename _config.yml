@@ -1,168 +1,56 @@
-# This is the default format.
-# For more see: http://jekyllrb.com/docs/permalinks/
+# Basic Jekyll Settings
+encoding: utf-8
+highlighter: rouge
 permalink: /:categories/:year/:month/:day/:title
 
-# Force UTF-8 encoding
-encoding: utf-8
+# Exclude from processing
+exclude:
+  - .rvmrc
+  - .rbenv-version
+  - README.md
+  - Rakefile
+  - changelog.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor", "Gemfile", "Gemfile.lock"]
-highlighter: rouge
+# Minimal Light Theme
+# https://github.com/yaoyao-liu/minimal-light
+remote_theme: yaoyao-liu/minimal-light
 
-# Themes are encouraged to use these universal variables
-# so be sure to set them if your theme uses them.
-#
-title : Andrew Hundt
-tagline: just the facts
-author :
-  name : Andrew Hundt
-  email : ATHundt@gmail.com
-  github : ahundt
-  twitter : athundt
-#  feedburner : feedname
+# Basic Information
+title: Andrew Hundt
+position: Computing Innovation Fellow
+affiliation: Carnegie Mellon University
+affiliation_link: https://www.cmu.edu/
+affiliation_logo: ./assets/img/cmu.png
+email: ATHundt (at) gmail.com
 
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt
-# Most places will/should use BASE_PATH to make the urls
-#
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.io, replace with your username.
-# Finally if you are pushing to a GitHub project page, include the project name at the end.
-#
-production_url : http://ahundt.github.io
+# Search Engine Optimization
+keywords: Andrew Hundt, Robotics, AI, Machine Learning, Responsible AI, Equity, Diversity, Inclusion
+description: Andrew Hundt's research on AI, Robotics, Deep Learning, Responsible AI, and AI Ethics
+canonical: https://ahundt.github.io/
 
-# Simple plain white theme
-# https://github.com/thelehhman/plainwhite-jekyll
-# http://jekyllthemes.org/themes/PlainWhite-Jekyll/
-remote_theme: thelehhman/plainwhite-jekyll
+# Social Links
+google_scholar: https://scholar.google.com/citations?user=N0JJHwkAAAAJ
+github_link: https://github.com/ahundt
+github_username: ahundt
+linkedin: https://www.linkedin.com/in/andrewhundt
+twitter: https://twitter.com/athundt
 
-# Plainwhite theme configuration
-plainwhite:
-  name: Andrew Hundt
-  tagline: Computing Innovation Fellow
-  date_format: "%b %-d, %Y"
+# Display Options
+enable_footnote: false
+enable_last_update: false
+auto_dark_mode: true
+font: "Serif" # Serif or Sans Serif
+font_size: "normal" # small, normal, large
 
-  # Social links
-  social_links:
-    twitter: athundt
-    github: ahundt
-    linkedIn: in/andrewhundt
+# Google Analytics (optional)
+google_analytics: UA-46300578-1
 
-  # Dark mode support
-  dark_mode: true
-
-  # Search functionality
-  search: true
-
-  # Show excerpts on home page
-  show_excerpts: true
-
-  # Navigation
-  navigation:
-    - title: Home
-      url: "/"
-    - title: Google Scholar
-      url: "https://scholar.google.com/citations?user=N0JJHwkAAAAJ"
-
-# All Jekyll-Bootstrap specific configurations are namespaced into this hash
-#
-JB :
-  version : 0.3.0
-
-  # All links will be namespaced by BASE_PATH if defined.
-  # Links in your website should always be prefixed with {{BASE_PATH}}
-  # however this value will be dynamically changed depending on your deployment situation.
-  #
-  # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Project Pages (http://username.github.io/project-name)
-  #
-  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
-  #
-  # CAUTION:
-  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
-  #   - Only the following values are falsy: ["", null, false]
-  #   - When setting BASE_PATH it must be a valid url.
-  #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : false
-
-  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
-  #
-  # Override this by defining an absolute path to assets here.
-  # ex:
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  #
-  ASSET_PATH : false
-
-  # These paths are to the main pages Jekyll-Bootstrap ships with.
-  # Some JB helpers refer to these paths; change them here if needed.
-  #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
-
-  # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
-
-  # Settings for analytics helper
-  # Set 'provider' to the analytics provider you want to use.
-  # Set 'provider' to false to turn analytics off globally.
-  #
-  analytics :
-    provider : google
-    google :
-        tracking_id : 'UA-46300578-1'
-    getclicky :
-      site_id :
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
-
-  # Settings for sharing helper.
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
-  # Set 'provider' to the sharing provider you want to use.
-  # Set 'provider' to false to turn sharing off globally.
-  #
-  sharing :
-    provider : false
-
-  # Settings for all other include helpers can be defined by creating
-  # a hash with key named for the given helper. ex:
-  #
-  #   pages_list :
-  #     provider : "custom"
-  #
-  # Setting any helper's provider to 'custom' will bypass the helper code
-  # and include your custom code. Your custom file must be defined at:
-  #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
-
-
-# theme: jekyll-theme-minimal
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
