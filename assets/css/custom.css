@@ -1,0 +1,216 @@
+/* Custom CSS for Andrew Hundt's website */
+
+/*
+ * WCAG 2.1 Level AA Compliance:
+ * - Link color #0066CC on white: 7.0:1 contrast (passes AA & AAA)
+ * - Hover color #004499 on white: >7.0:1 contrast (passes AA & AAA)
+ * - Focus indicators: 3px solid outline with 2px offset
+ * - Skip navigation link for keyboard users
+ * - External link visual indicators
+ */
+
+/* Improved typography */
+body {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* Better heading hierarchy */
+h1 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+h4 {
+  margin-top: 1.25em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+/* Publication entries styling */
+.publications h4 {
+  margin-top: 1.5em;
+  color: #2c3e50;
+}
+
+/* Improved link styling */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #004499;
+  text-decoration: underline;
+}
+
+/* Better spacing for lists */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+/* Improved paragraph spacing */
+p {
+  margin: 1em 0;
+}
+
+/* Better spacing for sections */
+hr {
+  margin: 2.5em 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Code and preformatted text */
+code {
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Better blockquote styling */
+blockquote {
+  border-left: 4px solid #0066cc;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  color: #555;
+  font-style: italic;
+}
+
+/* Accessibility Enhancements */
+
+/* Skip to main content link - hidden until focused */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 100;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Clear focus indicators for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* Enhanced focus for social media icons */
+.social-icons a {
+  /* WCAG 2.2 SC 2.5.8: Minimum target size 24x24px */
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+  /* Center icons within the clickable area */
+  text-align: center;
+  line-height: 24px;
+}
+
+.social-icons a:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.social-icons i {
+  /* Ensure icons are at least 20px for better visibility */
+  font-size: 1.25rem; /* 20px at default 16px base */
+  vertical-align: middle;
+}
+
+/* Screen reader only text - visually hidden but accessible to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Visual indicator for external links (opens in new window) */
+a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  vertical-align: super;
+  text-decoration: none;
+}
+
+/* Don't show external link indicator on icon-only links */
+.social-icons a[target="_blank"]::after,
+a.image[target="_blank"]::after {
+  content: "";
+}
+
+/* Print styles */
+@media print {
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}

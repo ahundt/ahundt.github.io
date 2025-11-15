@@ -1,0 +1,24 @@
+{
+  "name": "ahundt.github.io",
+  "version": "1.0.0",
+  "description": "This repository is used to generate my webpage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:42342/git/ahundt/ahundt.github.io"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "marked": "^16.4.1",
+    "playwright": "^1.56.1"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2"
+  }
+}

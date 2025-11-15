@@ -1,101 +1,141 @@
 ---
-layout: page
-title: Andrew Hundt
-tagline:
+layout: homepage
 ---
-{% include JB/setup %}
 
-![Picture of Andrew Hundt](https://0.gravatar.com/avatar/fb975596131ce08ea7e7472f09b8209d?d=https%3A%2F%2Fidenticons.github.com%2Fd7ccb841e1c86abdc1d1d6e6bacb6f17.png&r=x&s=200)
+## About
 
-Twitter: [@athundt](https://twitter.com/athundt)
-Email: [ATHundt@gmail.com](ATHundt@gmail.com)
+I am a Computing Innovation Fellow at Carnegie Mellon University with a PhD from Johns Hopkins University.
 
-[Google Scholar Page with publications](https://scholar.google.com/citations?user=N0JJHwkAAAAJ)
+My goal is to create robots and learning agents with exceptional adaptability and capabilities that respect human Equity, Diversity, and Inclusion.
 
-[GitHub User Page with Code Repositories](https://github.com/ahundt)
+## Selected Publications
 
-## PhD, Johns Hopkins University
+See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) page for the complete and up to date list.
 
-My goal is to create robots and other learning agents with brilliant adaptability, skillsets, and capabilities that are tailored to respect human Equity, Diversity, and Inclusion (EDI).
+### 2025
 
-### Selection of Papers
+**[A Longitudinal Autoethnography of Email Access for a Professional with Chronic Illness and ADHD: Preliminary Insights](https://dl.acm.org/doi/10.1145/3677846.3698793)** - SIGACCESS 2025
 
-See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) page for the complete and up to date list because this page is not updated frequently.
+**[LLM-Driven Robots Risk Enacting Discrimination, Violence, and Unlawful Actions](https://arxiv.org/abs/2406.08824)** - International Journal of Social Robotics 2025
 
-**[Robots Enact Malignant Stereotypes](https://sites.google.com/view/robots-enact-stereotypes/home)** ([DOI](https://doi.org/10.1145/3531146.3533138)) - FAccT22: 2022 ACM Conference on Fairness, Accountability, and Transparency
+Evaluates how large language models integrated into robotic systems may exhibit discriminatory behaviors and unsafe responses when encountering diverse populations or dangerous instructions.
 
-**["Good Robot! Now Watch This!": Repurposing Reinforcement Learning for Task-to-Task Transfer](https://openreview.net/forum?id=Pxs5XwId51n)** - Conference on Robot Learning 2021
+### 2024
 
-**[Guiding Multi-Step Rearrangement Tasks with Natural Language Instructions](https://openreview.net/forum?id=-QJ__aPUTN2)** - Conference on Robot Learning 2021
+**[SCoFT: Self-Contrastive Fine-Tuning for Equitable Image Generation](https://arxiv.org/abs/2401.08053)** - CVPR 2024
 
-**["Good Robot!": Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer](http://openreview.net/forum?id=Pxs5XwId51n)** - Robotics and Automation Letters (RA-L) 2020
+**[Love, Joy, and Autism Robots: A Metareview and Provocatype](https://arxiv.org/abs/2403.05098)** - A3DE workshop @ HRI 2024
 
-**[SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900)** - Preprint 2019
+Examines how autism research in robotics has prioritized interventions aimed at conforming neurodivergent individuals to neurotypical norms, rather than centering their own experiences and needs.
 
-Sets state of the art (SOTA) on the CIFAR-10 dataset and matches SOTA on ImageNet at mobile	scale in March 2019. Proposes Differentiable Hyperparameter Search and Cosine Power Annealing.
+**[Can 'Robots Won't Save Japan' Save Robotics? Reviewing an Ethnography of Eldercare Automation](https://arxiv.org/abs/2403.14673)** - arXiv 2024
+
+Reviews James Adrian Wright's ethnography "Robots Won't Save Japan," examining elder care robotics and augmenting insights with overlooked perspectives from Disability and Robotics research.
+
+### 2023
+
+**[Anti-ableist language is fully compatible with high-quality autism research: Response to Singer et al.(2023)](https://onlinelibrary.wiley.com/doi/full/10.1002/aur.2928)** - Autism Research 2023
+
+**[Towards Equitable Agile Research and Development of AI and Robotics](https://arxiv.org/abs/2402.08242)** - WeRobot 2023 / arXiv 2024
+
+Proposes adapting Agile/Scrum R&D methodologies to build organizational equity capabilities and integrate evidence-based fairness practices in AI and robotics development.
+
+### 2022
+
+**[Robots Enact Malignant Stereotypes](https://sites.google.com/view/robots-enact-stereotypes/home)** - FAccT '22 ([DOI](https://doi.org/10.1145/3531146.3533138))
+
+Evaluates how ML bias manifests in robots that physically act in the world, showing that CLIP-powered robotic manipulation methods enact toxic stereotypes with respect to gender, race, and scientifically-discredited physiognomy.
+
+### 2021
+
+**["Good Robot! Now Watch This!": Repurposing Reinforcement Learning for Task-to-Task Transfer](https://openreview.net/forum?id=Pxs5XwId51n)** - CoRL 2021
+
+**[Guiding Multi-Step Rearrangement Tasks with Natural Language Instructions](https://openreview.net/forum?id=-QJ__aPUTN2)** - CoRL 2021
+
+**[Effective Visual Robot Learning: Reduce, Reuse, Recycle](https://jscholarship.library.jhu.edu/handle/1774.2/66736)** - PhD Dissertation, Johns Hopkins University 2021
+
+### 2020
+
+**["Good Robot!": Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer](https://arxiv.org/abs/1909.11730)** - IEEE Robotics and Automation Letters (RA-L) 2020
+
+Presented at IROS 2020.
+
+### 2019
+
+**[SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900)** - arXiv 2019
+
+This work set state of the art on CIFAR-10 and matched state of the art on ImageNet at mobile scale, proposing Differentiable Hyperparameter Search and Cosine Power Annealing.
 
 **[The CoSTAR Block Stacking Dataset: Learning with Workspace Constraints](https://arxiv.org/abs/1810.11714)** - IROS 2019
 
-A dynamic robotics dataset which serves as a valuable resource to researchers across a broad range of topics. Proposes HyperTree Neural Architecture Search (NAS) for refining neural network models.
-[CoSTAR Block Stacking Dataset Website](https://sites.google.com/site/costardataset)
+A dynamic robotics dataset with HyperTree Neural Architecture Search for refining neural network models. [Dataset Website](https://sites.google.com/site/costardataset)
+
+### 2018
+
+**[Evaluating methods for end-user creation of robot task plans](https://ieeexplore.ieee.org/document/8594005)** - IROS 2018
+
+### 2017
 
 **[CoSTAR: Instructing Collaborative Robots with Behavior Trees and Vision](https://arxiv.org/abs/1611.06145)** - ICRA 2017
 
-Defines perception and spatial reasoning abstractions to enable end-users to create robust task plans.
-**Winner of the 2016 KUKA Innovation Award** in a competition on flexible manufacturing.
+Defines perception and spatial reasoning abstractions to enable end-users to create robust task plans. **Winner of the 2016 KUKA Innovation Award** in flexible manufacturing competition.
 
 **[User Experience of the CoSTAR System for Instruction of Collaborative Robots](http://arxiv.org/abs/1703.07890)** - IROS 2017
 
-A user study showing the CoSTAR flexible manufacturing system is effective for specifying task plans.
+User study demonstrating the CoSTAR flexible manufacturing system's effectiveness for specifying task plans.
+
+---
 
 ## [Computing Innovation Fellow](https://cifellows2021.org/2021-class/)
 
-Awarded by the Computing Research Association (CRA) via National Science Foundation (NSF) support, for a Postdoctoral Fellowship at the Georgia Institute of Technology to develop human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in the development of computational methods for Robotics and AI.
-[](Democratizing Access: Natural Cooperation between Diverse Human Populations and Learning Agents)
-[](with Assistant Professor Matthew Gombolay and Regents' Professor Ronald C. Arkin.)
+This fellowship was awarded by the Computing Research Association with National Science Foundation support. My postdoctoral research at Georgia Institute of Technology and Carnegie Mellon University develops human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in computational methods for Robotics and AI.
 
-### Robone Project
+---
 
-I've worked on a robotic hip replacement surgical assistant robot.
+## Research Projects
 
 ### Generic Robotics Library
 
-[Generic Robotics Library](https://github.com/ahundt/grl)
+[Generic Robotics Library](https://github.com/ahundt/grl) - Open source C++ robotics software library.
+
+### Robone
+
+Robotic hip replacement surgical assistant robot.
 
 ## Past Employment
 
-<!-- > *[Robotics Engineer](http://www.ri.cmu.edu/person.html?person_id=2462)*, -->
-> *Robotics Engineer*
-> [National Robotics Engineering Center](http://rec.ri.cmu.edu),
-> [Robotics Institute](http://www.ri.cmu.edu/),
-> [Carnegie Mellon University](http://cmu.edu)
+### Robotics Engineer
 
-<!-- #### [Farming Automation](http://www.rec.ri.cmu.edu/projects/usda/) -->
+**National Robotics Engineering Center**, Robotics Institute, Carnegie Mellon University
 
-<!-- ![Orchard Tractor](http://www.rec.ri.cmu.edu/projects/usda/images/description.jpg) -->
+Worked on autonomous orchard and field tractors for farming automation.
 
- Farming Automation: I've worked on autonomous orchard and field tractors.
+---
 
-### [Boost.Container static_vector](http://is.gd/BoostSV)
+## Open Source Contributions
 
-Part of [Boost C++ Libraries](http://boost.org), `static_vector`, aka `varray`, is a sequence container like `std::vector` with the benefits of statically allocated storage as found in `std::array`. **Acknowledgments**: [Boost.Geometry](http://is.gd/geometryack), [Boost.Container](http://is.gd/containerack)
+### [Boost.Container static_vector](https://www.boost.org/doc/libs/release/doc/html/container/non_standard_containers.html#container.non_standard_containers.static_vector)
 
-## Personal Projects from 2015 or earlier
+Contributed to [Boost C++ Libraries](https://www.boost.org). The `static_vector` is a sequence container like `std::vector` with the benefits of statically allocated storage as found in `std::array`.
+
+---
+
+## Earlier Projects
 
 ### [CalcHundter](CalcHundter)
 
-A cross-platform calculator app to assist with programming arithmetic and bit operations, made with the use of HCI research and design principles. **Download**: [Windows](http://is.gd/calchundterwin), [Mac](http://is.gd/calchundtermac)
+Cross-platform calculator app for programming arithmetic and bit operations, designed using HCI research principles.
 
-### [Wii Remote Controlled Robot](http://youtu.be/jPCQyqeU0kw)
+### [Wii Remote Controlled Robot](https://youtu.be/jPCQyqeU0kw)
 
-In 2007 I built a robot that can be controlled by Wii remote.
+Robot controlled by Wii remote (2007).
 
-### [CMU Buggy](http://is.gd/cmubuggy)
+### [CMU Buggy](https://www.cmubuggy.org/)
 
-I was an engineer for Fringe Racing, a team which designs and builds human powered, ultra light carbon composite vehicles. Fringe Racing placed first in the Carnegie Mellon Sweepstakes Design Competition in 2006, 2007 and 2008. Elected Chairman of the Sweepstakes Committee for 2009; led the school wide organization with 13 teams and 250 members.
+Engineer for Fringe Racing, designing and building human-powered ultra-light carbon composite vehicles. Fringe Racing placed first in the Carnegie Mellon Sweepstakes Design Competition in 2006, 2007, and 2008. Elected Chairman of the Sweepstakes Committee for 2009, leading the organization with 13 teams and 250 members.
 
-### Inertial Electrostatic Confinement fusion reactor
+### Inertial Electrostatic Confinement Fusion Reactor
 
-In High School I researched an Inertial Electrostatic Confinement fusion reactor which achieved plasma.
+High school research project on an Inertial Electrostatic Confinement fusion reactor that achieved plasma.
 
 
