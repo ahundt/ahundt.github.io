@@ -61,44 +61,45 @@
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem" title="Google Scholar"></i>
         </a>
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" target="_blank" rel="noopener" aria-label="Curriculum Vitae">
+          <i class="ai ai-cv" style="font-size:1.3rem;" title="Curriculum Vitae"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github" title="GitHub"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin" title="LinkedIn"></i>
         </a>
+        <br>
         {% endif %}
 
         {% if site.twitter %}
-        <a style="margin: 0 5px 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fab fa-twitter" title="Twitter"></i>
         </a>
         {% endif %}
 
         {% if site.mastodon %}
-        <a style="margin: 0 5px 0 0" href="{{ site.mastodon }}">
-          <i class="fab fa-mastodon"></i>
+        <a style="margin: 0 5px 0 0" href="{{ site.mastodon }}" target="_blank" rel="noopener" aria-label="Mastodon">
+          <i class="fab fa-mastodon" title="Mastodon"></i>
         </a>
         {% endif %}
 
         {% if site.bluesky %}
-        <a style="margin: 0 0 0 0" href="{{ site.bluesky }}">
-          <i class="fa-brands fa-bluesky"></i>
+        <a style="margin: 0 0 0 0" href="{{ site.bluesky }}" target="_blank" rel="noopener" aria-label="Bluesky">
+          <i class="fa-brands fa-bluesky" title="Bluesky"></i>
         </a>
         {% endif %}
         </div>

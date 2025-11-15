@@ -4,9 +4,9 @@ layout: homepage
 
 ## About
 
-Computing Innovation Fellow at Carnegie Mellon University. PhD from Johns Hopkins University.
+I am a Computing Innovation Fellow at Carnegie Mellon University with a PhD from Johns Hopkins University.
 
-My goal is to create robots and other learning agents with brilliant adaptability, skillsets, and capabilities that are tailored to respect human Equity, Diversity, and Inclusion (EDI).
+My goal is to create robots and learning agents with exceptional adaptability and capabilities that respect human Equity, Diversity, and Inclusion.
 
 ### Selected Publications
 
@@ -64,11 +64,11 @@ Presented at IROS 2020.
 
 **[SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900)** - arXiv 2019
 
-Sets state of the art on CIFAR-10 and matches state of the art on ImageNet at mobile scale. Proposes Differentiable Hyperparameter Search and Cosine Power Annealing.
+This work set state of the art on CIFAR-10 and matched state of the art on ImageNet at mobile scale, proposing Differentiable Hyperparameter Search and Cosine Power Annealing.
 
 **[The CoSTAR Block Stacking Dataset: Learning with Workspace Constraints](https://arxiv.org/abs/1810.11714)** - IROS 2019
 
-Dynamic robotics dataset with HyperTree Neural Architecture Search for refining neural network models. [Dataset Website](https://sites.google.com/site/costardataset)
+A dynamic robotics dataset with HyperTree Neural Architecture Search for refining neural network models. [Dataset Website](https://sites.google.com/site/costardataset)
 
 #### 2018
 
@@ -88,7 +88,7 @@ User study demonstrating the CoSTAR flexible manufacturing system's effectivenes
 
 ## [Computing Innovation Fellow](https://cifellows2021.org/2021-class/)
 
-Awarded by the Computing Research Association via National Science Foundation support. Postdoctoral research at Georgia Institute of Technology and Carnegie Mellon University developing human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in computational methods for Robotics and AI.
+This fellowship was awarded by the Computing Research Association with National Science Foundation support. My postdoctoral research at Georgia Institute of Technology and Carnegie Mellon University develops human and technical principles, processes, metrics, and algorithms that advance Equity, Diversity, and Inclusion in computational methods for Robotics and AI.
 
 ---
 
