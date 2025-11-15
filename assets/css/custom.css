@@ -140,10 +140,26 @@ select:focus {
 }
 
 /* Enhanced focus for social media icons */
+.social-icons a {
+  /* WCAG 2.2 SC 2.5.8: Minimum target size 24x24px */
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+  /* Center icons within the clickable area */
+  text-align: center;
+  line-height: 24px;
+}
+
 .social-icons a:focus {
   outline: 3px solid #0066cc;
   outline-offset: 4px;
   border-radius: 4px;
+}
+
+.social-icons i {
+  /* Ensure icons are at least 20px for better visibility */
+  font-size: 1.25rem; /* 20px at default 16px base */
+  vertical-align: middle;
 }
 
 /* Screen reader only text - visually hidden but accessible to screen readers */
