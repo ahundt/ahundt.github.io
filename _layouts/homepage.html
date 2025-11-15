@@ -36,11 +36,14 @@
 
   </head>
   <body>
+    <!-- Skip to main content link for screen readers and keyboard navigation -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <div class="wrapper">
-      <header>
+      <header role="banner">
 
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="A headshot of Andrew Hundt, a tall white man with dirty blond hair, arms crossed, brightly lit, smiling and wearing a black suit with a blue collared shirt and no tie. A collection of bright colored blocks are on the table with a robot arm to the right." /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
@@ -59,53 +62,56 @@
 
         <br>
         <br>
+        <nav role="navigation" aria-label="Social media links">
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar">
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar (opens in new window)">
           <i class="ai ai-google-scholar" style="font-size:1.2rem" title="Google Scholar"></i>
         </a>
         {% endif %}
 
         {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" target="_blank" rel="noopener" aria-label="Curriculum Vitae">
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}" target="_blank" rel="noopener" aria-label="Curriculum Vitae (opens in new window)">
           <i class="ai ai-cv" style="font-size:1.3rem;" title="Curriculum Vitae"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" target="_blank" rel="noopener" aria-label="GitHub">
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}" target="_blank" rel="noopener" aria-label="GitHub (opens in new window)">
           <i class="fab fa-github" title="GitHub"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn (opens in new window)">
           <i class="fab fa-linkedin" title="LinkedIn"></i>
         </a>
         <br>
         {% endif %}
 
         {% if site.twitter %}
-        <a style="margin: 0 5px 0 0" href="{{ site.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
+        <a style="margin: 0 5px 0 0" href="{{ site.twitter }}" target="_blank" rel="noopener" aria-label="Twitter (opens in new window)">
           <i class="fab fa-twitter" title="Twitter"></i>
         </a>
         {% endif %}
 
         {% if site.mastodon %}
-        <a style="margin: 0 5px 0 0" href="{{ site.mastodon }}" target="_blank" rel="noopener" aria-label="Mastodon">
+        <a style="margin: 0 5px 0 0" href="{{ site.mastodon }}" target="_blank" rel="noopener" aria-label="Mastodon (opens in new window)">
           <i class="fab fa-mastodon" title="Mastodon"></i>
         </a>
         {% endif %}
 
         {% if site.bluesky %}
-        <a style="margin: 0 0 0 0" href="{{ site.bluesky }}" target="_blank" rel="noopener" aria-label="Bluesky">
+        <a style="margin: 0 0 0 0" href="{{ site.bluesky }}" target="_blank" rel="noopener" aria-label="Bluesky (opens in new window)">
           <i class="fa-brands fa-bluesky" title="Bluesky"></i>
         </a>
         {% endif %}
         </div>
+        </nav>
         <br>
 
       </header>
+      <main role="main" id="main-content">
       <section>
 
       {{ content }}
@@ -117,7 +123,8 @@
       {% endif %}
 
       </section>
-      <footer>
+      </main>
+      <footer role="contentinfo">
 
       </footer>
     </div>

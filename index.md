@@ -8,11 +8,11 @@ I am a Computing Innovation Fellow at Carnegie Mellon University with a PhD from
 
 My goal is to create robots and learning agents with exceptional adaptability and capabilities that respect human Equity, Diversity, and Inclusion.
 
-### Selected Publications
+## Selected Publications
 
 See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) page for the complete and up to date list.
 
-#### 2025
+### 2025
 
 **[A Longitudinal Autoethnography of Email Access for a Professional with Chronic Illness and ADHD: Preliminary Insights](https://dl.acm.org/doi/10.1145/3677846.3698793)** - SIGACCESS 2025
 
@@ -20,7 +20,7 @@ See my [Google Scholar](https://scholar.google.com/citations?user=N0JJHwkAAAAJ) 
 
 Evaluates how large language models integrated into robotic systems may exhibit discriminatory behaviors and unsafe responses when encountering diverse populations or dangerous instructions.
 
-#### 2024
+### 2024
 
 **[SCoFT: Self-Contrastive Fine-Tuning for Equitable Image Generation](https://arxiv.org/abs/2401.08053)** - CVPR 2024
 
@@ -32,7 +32,7 @@ Examines how autism research in robotics has prioritized interventions aimed at 
 
 Reviews James Adrian Wright's ethnography "Robots Won't Save Japan," examining elder care robotics and augmenting insights with overlooked perspectives from Disability and Robotics research.
 
-#### 2023
+### 2023
 
 **[Anti-ableist language is fully compatible with high-quality autism research: Response to Singer et al.(2023)](https://onlinelibrary.wiley.com/doi/full/10.1002/aur.2928)** - Autism Research 2023
 
@@ -40,13 +40,13 @@ Reviews James Adrian Wright's ethnography "Robots Won't Save Japan," examining e
 
 Proposes adapting Agile/Scrum R&D methodologies to build organizational equity capabilities and integrate evidence-based fairness practices in AI and robotics development.
 
-#### 2022
+### 2022
 
 **[Robots Enact Malignant Stereotypes](https://sites.google.com/view/robots-enact-stereotypes/home)** - FAccT '22 ([DOI](https://doi.org/10.1145/3531146.3533138))
 
 Evaluates how ML bias manifests in robots that physically act in the world, showing that CLIP-powered robotic manipulation methods enact toxic stereotypes with respect to gender, race, and scientifically-discredited physiognomy.
 
-#### 2021
+### 2021
 
 **["Good Robot! Now Watch This!": Repurposing Reinforcement Learning for Task-to-Task Transfer](https://openreview.net/forum?id=Pxs5XwId51n)** - CoRL 2021
 
@@ -54,13 +54,13 @@ Evaluates how ML bias manifests in robots that physically act in the world, show
 
 **[Effective Visual Robot Learning: Reduce, Reuse, Recycle](https://jscholarship.library.jhu.edu/handle/1774.2/66736)** - PhD Dissertation, Johns Hopkins University 2021
 
-#### 2020
+### 2020
 
 **["Good Robot!": Efficient Reinforcement Learning for Multi-Step Visual Tasks with Sim to Real Transfer](https://arxiv.org/abs/1909.11730)** - IEEE Robotics and Automation Letters (RA-L) 2020
 
 Presented at IROS 2020.
 
-#### 2019
+### 2019
 
 **[SharpDARTS: Faster and More Accurate Differentiable Architecture Search](https://arxiv.org/abs/1903.09900)** - arXiv 2019
 
@@ -70,11 +70,11 @@ This work set state of the art on CIFAR-10 and matched state of the art on Image
 
 A dynamic robotics dataset with HyperTree Neural Architecture Search for refining neural network models. [Dataset Website](https://sites.google.com/site/costardataset)
 
-#### 2018
+### 2018
 
 **[Evaluating methods for end-user creation of robot task plans](https://ieeexplore.ieee.org/document/8594005)** - IROS 2018
 
-#### 2017
+### 2017
 
 **[CoSTAR: Instructing Collaborative Robots with Behavior Trees and Vision](https://arxiv.org/abs/1611.06145)** - ICRA 2017
 
