@@ -27,6 +27,9 @@ affiliation_link: https://www.cmu.edu/
 affiliation_logo: ./assets/img/cmu.png
 email: ATHundt (at) gmail.com
 
+# Repository Information
+repository: ahundt/ahundt.github.io
+
 # Search Engine Optimization
 keywords: Andrew Hundt, Robotics, AI, Machine Learning, Responsible AI, Equity, Diversity, Inclusion
 description: Andrew Hundt's research on AI, Robotics, Deep Learning, Responsible AI, and AI Ethics
